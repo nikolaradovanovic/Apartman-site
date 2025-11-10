@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Naš apartman</title>
+
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <!-- LightGallery (nova verzija) css link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery-bundle.min.css"
+    />
+
+    <!-- swiper cdn css link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11.0.5/swiper-bundle.min.css"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header class="header">
+      <a href="#" class="logo">Naš<span>Apartman</span></a>
+
+      <nav class="navbar">
+        <a href="#home">Početna</a>
+        <a href="#about">O Apartmanu</a>
+        <a href="#services">Usluge</a>
+        <a href="#projects">Prostorije</a>
+        <a href="#pricing">Cenovnik</a>
+        <a href="#contact">Kontakt</a>
+        <a href="#others">Ostale ponude</a>
+      </nav>
+      <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="info-btn" class="fas fa-info-circle"></div>
+      </div>
+    </header>
+    <!-- end header -->
+
+    <!-- aside contact -->
+    <div class="contact-info">
+      <div id="close-contact-info" class="fas fa-times"></div>
+
+      <div class="info">
+        <i class="fas fa-phone"></i>
+        <h3>Broj telefona</h3>
+        <p>011-456-789</p>
+        <p>381-63-456-789</p>
+      </div>
+      <div class="info">
+        <i class="fas fa-envelope"></i>
+        <h3>E-mail adresa:</h3>
+        <p>info@apartman.rs</p>
+        <p>apartman@example.com</p>
+      </div>
+      <div class="info">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>Kancelarija:</h3>
+        <p>Srbija , Beograd</p>
+      </div>
+
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-x-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+      </div>
+    </div>
+    <!--end aside contact -->
+
+    <!-- start home-->
+    <section id="home" class="swiper home">
+      <div class="home-slider">
+        <div class="swiper-wrapper">
+          <section
+            class="swiper-slide slide"
+            style="background: url('images/home-slide-1.jpg') no-repeat"
+          >
+            <div class="content">
+              <h3>Nudimo vam veliki broj apartmana</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores consequatur earum veritatis expedita deserunt omnis,
+                accusamus molestias iusto voluptatum architecto.
+              </p>
+              <a href="#about" class="btn">više o nama</a>
+            </div>
+          </section>
+
+          <section
+            class="swiper-slide slide"
+            style="background: url('images/home-slide-2.jpg') no-repeat"
+          >
+            <div class="content">
+              <h3>Nudimo vam veliki broj apartmana</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores consequatur earum veritatis expedita deserunt omnis,
+                accusamus molestias iusto voluptatum architecto.
+              </p>
+              <a href="#about" class="btn">više o nama</a>
+            </div>
+          </section>
+
+          <section
+            class="swiper-slide slide"
+            style="background: url('images/home-slide-3.jpg') no-repeat"
+          >
+            <div class="content">
+              <h3>Nudimo vam veliki broj apartmana</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Asperiores consequatur earum veritatis expedita deserunt omnis,
+                accusamus molestias iusto voluptatum architecto.
+              </p>
+              <a href="#about" class="btn">više o nama</a>
+            </div>
+          </section>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+    <!-- end home  -->
+
+    <!-- start about-->
+    <section id="about" class="about">
+      <h1 class="heading">O nama</h1>
+      <div class="row">
+        <div class="video">
+          <video src="images/about-vid.mp4" muted autoplay loop></video>
+        </div>
+        <div class="content">
+          <h3>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt,
+            veniam.
+          </h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi
+            facere, quisquam eligendi necessitatibus voluptates adipisci.
+          </p>
+          <a href="#services" class="btn">Dodatne usluge</a>
+        </div>
+      </div>
+      <div class="box-container">
+        <div class="box">
+          <h3>30+</h3>
+          <p>Godina rada</p>
+        </div>
+
+        <div class="box">
+          <h3>9400+</h3>
+          <p>Izdatih apartmana</p>
+        </div>
+
+        <div class="box">
+          <h3>9000+</h3>
+          <p>Zadovoljnih gostiju</p>
+        </div>
+
+        <div class="box">
+          <h3>65+</h3>
+          <p>Apartmana u ponudi</p>
+        </div>
+      </div>
+    </section>
+    <!-- end about   -->
+
+    <!-- start services -->
+    <section class="services" id="services">
+      <h1 class="heading">Usluge</h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="images/service-1.png" alt="services image" />
+          <h3>Besplatan Wi-Fi</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
+            tempore?
+          </p>
+        </div>
+        <div class="box">
+          <img src="images/service-2.png" alt="services image" />
+          <h3>Besplatan parking</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
+            tempore?
+          </p>
+        </div>
+        <div class="box">
+          <img src="images/service-3.png" alt="services image" />
+          <h3>Velika Terasa</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
+            tempore?
+          </p>
+        </div>
+        <div class="box">
+          <img src="images/service-4.png" alt="services image" />
+          <h3>Kuhinja</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
+            tempore?
+          </p>
+        </div>
+        <div class="box">
+          <img src="images/service-5.png" alt="services image" />
+          <h3>Spavaca Soba</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
+            tempore?
+          </p>
+        </div>
+        <div class="box">
+          <img src="images/service-6.png" alt="services image" />
+          <h3>Licno kupatilo</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
+            tempore?
+          </p>
+        </div>
+        <div class="box">
+          <img src="images/service-7.png" alt="services image" />
+          <h3>Kancelarija</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
+            tempore?
+          </p>
+        </div>
+        <div class="box">
+          <img src="images/service-8.png" alt="services image" />
+          <h3>Lift</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
+            tempore?
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- end services  -->
+
+    <!-- start project -->
+    <section class="projects" id="projects">
+      <h1 class="heading">Prostorije</h1>
+
+      <div class="box-container">
+        <a href="images/project-1.jpg" class="box">
+          <div class="image">
+            <img src="images/project-1.jpg" alt="pr1" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>Zgrada</h3>
+              <p>prikaz zgrade</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+        <a href="images/project-2.jpg" class="box">
+          <div class="image">
+            <img src="images/project-2.jpg" alt="pr2" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>Dnevni boravak</h3>
+              <p>prikaz dnevnog boravka</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+        <a href="images/project-3.jpg" class="box">
+          <div class="image">
+            <img src="images/project-3.jpg" alt="pr3" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>Soba</h3>
+              <p>prikaz sobe</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+        <a href="images/project-4.jpg" class="box">
+          <div class="image">
+            <img src="images/project-4.jpg" alt="pr4" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>Kuhinja</h3>
+              <p>prikaz kuhinje</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+        <a href="images/project-5.jpg" class="box">
+          <div class="image">
+            <img src="images/project-5.jpg" alt="pr5" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>Kupatilo</h3>
+              <p>prikaz kupatila</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+        <a href="images/project-6.jpg" class="box">
+          <div class="image">
+            <img src="images/project-6.jpg" alt="pr6" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>Kancelarija</h3>
+              <p>prikaz kancelarije</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+      </div>
+    </section>
+    <!-- end project -->
+
+    <!-- review section start -->
+    <section class="reviews">
+      <h1 class="heading">Gosti o nama</h1>
+      <div class="swiper reviews-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+              quidem dignissimos? Debitis ducimus aspernatur similique sapiente
+              voluptatum dolorum libero officia ratione, magni voluptas
+              consequuntur exercitationem fuga neque ab, eaque cum aliquam
+              quisquam quibusdam doloribus necessitatibus nulla omnis nisi quam
+              provident?
+            </p>
+            <div class="user">
+              <img src="images/pic-1.jpg" alt="pick1" />
+              <div class="info">
+                <h3>Ime i prezime</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+              quidem dignissimos? Debitis ducimus aspernatur similique sapiente
+              voluptatum dolorum libero officia ratione, magni voluptas
+              consequuntur exercitationem fuga neque ab, eaque cum aliquam
+              quisquam quibusdam doloribus necessitatibus nulla omnis nisi quam
+              provident?
+            </p>
+            <div class="user">
+              <img src="images/pic-2.jpg" alt="pick2" />
+              <div class="info">
+                <h3>Ime i prezime</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+              quidem dignissimos? Debitis ducimus aspernatur similique sapiente
+              voluptatum dolorum libero officia ratione, magni voluptas
+              consequuntur exercitationem fuga neque ab, eaque cum aliquam
+              quisquam quibusdam doloribus necessitatibus nulla omnis nisi quam
+              provident?
+            </p>
+            <div class="user">
+              <img src="images/pic-3.jpg" alt="pick3" />
+              <div class="info">
+                <h3>Ime i prezime</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+              quidem dignissimos? Debitis ducimus aspernatur similique sapiente
+              voluptatum dolorum libero officia ratione, magni voluptas
+              consequuntur exercitationem fuga neque ab, eaque cum aliquam
+              quisquam quibusdam doloribus necessitatibus nulla omnis nisi quam
+              provident?
+            </p>
+            <div class="user">
+              <img src="images/pic-4.jpg" alt="pick4" />
+              <div class="info">
+                <h3>Ime i prezime</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+              quidem dignissimos? Debitis ducimus aspernatur similique sapiente
+              voluptatum dolorum libero officia ratione, magni voluptas
+              consequuntur exercitationem fuga neque ab, eaque cum aliquam
+              quisquam quibusdam doloribus necessitatibus nulla omnis nisi quam
+              provident?
+            </p>
+            <div class="user">
+              <img src="images/pic-5.jpg" alt="pick5" />
+              <div class="info">
+                <h3>Ime i prezime</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+              quidem dignissimos? Debitis ducimus aspernatur similique sapiente
+              voluptatum dolorum libero officia ratione, magni voluptas
+              consequuntur exercitationem fuga neque ab, eaque cum aliquam
+              quisquam quibusdam doloribus necessitatibus nulla omnis nisi quam
+              provident?
+            </p>
+            <div class="user">
+              <img src="images/pic-6.jpg" alt="pick6" />
+              <div class="info">
+                <h3>Ime i prezime</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- rewiew section end  -->
+
+    <!-- start pricing section end  -->
+    <section class="pricing" id="pricing">
+      <h1 class="heading">Cenovnik Usluga - Ponude</h1>
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-home"></i>
+          <h3>Osnovna</h3>
+          <div class="price"><span>&euro;</span> 30<span>/dan</span></div>
+          <div class="list">
+            <p>Usluga: Lorem ipsum dolor sit amet.</p>
+            <p>Usluga: Lorem ipsum dolor sit amet.</p>
+            <p>Usluga: Lorem ipsum dolor sit amet.</p>
+            <p>Usluga: Lorem ipsum dolor sit amet.</p>
+            <p>Usluga: Lorem ipsum dolor sit amet.</p>
+          </div>
+          <a href="#" class="btn">Izaberite uslugu</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-building"></i>
+          <h3>Srednja</h3>
+          <div class="price"><span>&euro;</span> 50<span>/dan</span></div>
+          <div class="list">
+            <p>Usluga: Lorem ipsum dolor sit amet.</p>
+            <p>Usluga: Lorem ipsum dolor sit amet.</p>
+            <p>Usluga: Lorem ipsum dolor sit amet.</p>
+            <p>Usluga: Lorem ipsum dolor sit amet.</p>
+            <p>Usluga: Lorem ipsum dolor sit amet.</p>
+          </div>
+          <a href="#" class="btn">Izaberite uslugu</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-city"></i>
+          <h3>Napredna</h3>
+          <div class="price"><span>&euro;</span> 80<span>/dan</span></div>
+          <div class="list">
+            <p>Usluga: Lorem ipsum dolor sit amet.</p>
+            <p>Usluga: Lorem ipsum dolor sit amet.</p>
+            <p>Usluga: Lorem ipsum dolor sit amet.</p>
+            <p>Usluga: Lorem ipsum dolor sit amet.</p>
+            <p>Usluga: Lorem ipsum dolor sit amet.</p>
+          </div>
+          <a href="#" class="btn">Izaberite uslugu</a>
+        </div>
+      </div>
+    </section>
+    <!-- end pricing section end  -->
+
+    <!-- start contact section end  -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading">Kontaktirajte nas</h1>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5661.651768525079!2d20.477217494364897!3d44.80473694654723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7a9c1c331b93%3A0xae3d7dbdc836bf39!2z0JLRg9C60L7QsiDRgdC_0L7QvNC10L3QuNC6LCDQkdC10L7Qs9GA0LDQtA!5e0!3m2!1ssr!2srs!4v1762732410030!5m2!1ssr!2srs"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <form action="">
+          <h3>Posaljite poruku</h3>
+          <input type="text" placeholder="Ime" class="box" />
+          <input type="email" placeholder="E-mail" class="box" />
+          <input type="number" placeholder="Kontakt telefon" class="box" />
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Poruka"
+            class="box"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" value="Posalji" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <!-- end contact section end  -->
+
+    <!-- start others section end  -->
+
+    <section class="others" id="others">
+      <h1 class="heading">Ostali apartmani</h1>
+      <div class="swiper others-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-1.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Apartman broj 1</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Delectus, voluptatum!
+              </p>
+              <a href="#" class="btn">Pogledaj</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-2.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Apartman broj 2</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Delectus, voluptatum!
+              </p>
+              <a href="#" class="btn">Pogledaj</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-3.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Apartman broj 3</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Delectus, voluptatum!
+              </p>
+              <a href="#" class="btn">Pogledaj</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-4.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Apartman broj 4</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Delectus, voluptatum!
+              </p>
+              <a href="#" class="btn">Pogledaj</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-5.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Apartman broj 5</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Delectus, voluptatum!
+              </p>
+              <a href="#" class="btn">Pogledaj</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-6.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>Apartman broj 6</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Delectus, voluptatum!
+              </p>
+              <a href="#" class="btn">Pogledaj</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- end others section end  -->
+
+    <!-- start logo slider   -->
+
+    <section class="logo-container">
+      <div class="swiper logo-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <img src="images/client-logo-1.png" alt="" />
+          </div>
+
+          <div class="swiper-slide slide">
+            <img src="images/client-logo-1.png" alt="" />
+          </div>
+
+          <div class="swiper-slide slide">
+            <img src="images/client-logo-1.png" alt="" />
+          </div>
+
+          <div class="swiper-slide slide">
+            <img src="images/client-logo-1.png" alt="" />
+          </div>
+
+          <div class="swiper-slide slide">
+            <img src="images/client-logo-1.png" alt="" />
+          </div>
+
+          <div class="swiper-slide slide">
+            <img src="images/client-logo-1.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end logo slider   -->
+
+    <!-- start footer slider   -->
+    <footer class="footer">
+      <div class="links">
+        <a class="btn" href="#home">Početna</a>
+        <a class="btn" href="#about">O Apartmanu</a>
+        <a class="btn" href="#services">Usluge</a>
+        <a class="btn" href="#projects">Prostorije</a>
+        <a class="btn" href="#pricing">Cenovnik</a>
+        <a class="btn" href="#contact">Kontakt</a>
+        <a class="btn" href="#others">Ostale ponude</a>
+      </div>
+      <div class="credit">
+        web dizajner <span>Nikola Radovanovic</span> | sva prava zadrzana!
+        &copy; 2025
+      </div>
+    </footer>
+    <!-- end footer slider   -->
+
+    <!-- swiper cdn js link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11.0.5/swiper-bundle.min.js"></script>
+
+    <!-- LightGallery (nova verzija + pluginovi) -->
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/lightgallery.umd.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/thumbnail/lg-thumbnail.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/zoom/lg-zoom.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/fullscreen/lg-fullscreen.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/download/lg-download.umd.min.js"></script> -->
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+
+    <script>
+      lightGallery(document.querySelector(".projects .box-container"));
+      console.log(lightGallery);
+    </script>
+  </body>
+</html>
